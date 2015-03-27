@@ -4,6 +4,7 @@ import sys
 
 def count_name(filename, protein_name):
     count = 0
+    
     for line in filename:
         if line.rstrip() == protein_name:
             count += 1
